@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg header fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand links" href="#">
-          <h1>Dev-Evenilson</h1>
+          <button id="tema" onclick="temaClaro()">Tema Claro</button>
         </a>
         <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +82,9 @@
 
         <!-- Segunda Coluna -->
         <div class="col-md-6 content-avatar">
-          <img data-aos="flip-right" data-aos-duration="1500" src="/IMAGENS/programador.jpeg" alt="Descrição da Imagem">
+          <figure>
+            <img data-aos="flip-right" data-aos-duration="1500" src="/IMAGENS/programador.jpeg" alt="Descrição da Imagem">
+          </figure>
         </div>
       </div>
     </div>
@@ -94,19 +96,27 @@
       <div class="row align-items-center content2  ">
         <!-- Primeira Coluna -->
         <div class="col-md-6">
-          <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="">
+         <figure>
+           <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="">
+         </figure>
         </div>
         <!-- Segunda Coluna -->
         <div class="col-md-6 content-avatar">
-          <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo">MUITO PRAZER , EU SOU <br> <span>EVENILSON
+          <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-1">MUITO PRAZER , EU SOU <br> <span>EVENILSON
             </span></h2>
-          <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo">Meu nome é Evenilson da Silva Almeida e
+          <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo-2">Meu nome é Evenilson da Silva Almeida
+            e
             estou cursando Desenvolvimento Front-end pela EBAC. Tenho grande interesse em fazer parte de uma equipe
             inovadora, onde eu possa aplicar e expandir meus conhecimentos em HTML, CSS, JavaScript e frameworks
             modernos.
 
             Estou sempre em busca de aprimorar minhas habilidades e estou disponível para conversar sobre oportunidades
             e como posso contribuir para o crescimento da sua empresa.</p>
+            <div  class="audio">
+              <em>Minha jornada na programação</em> <br>
+              <audio src="/arquivo-mp3/minha-jornada.wav" controls></audio>
+            </div>
+            <br>
           <div>
             <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"><i
                 class="bi bi-linkedin"></i></a>
@@ -119,8 +129,8 @@
 
   <section id="projetos">
     <hr>
-    <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo text-center mb-4">
-      Meus <span>projetos</span>
+    <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-2 text-center mb-4">
+      MEUS <span>PROJETOS</span>
     </h2>
     <div class="container">
       <div class="row g-4">
@@ -288,8 +298,8 @@
   <hr>
   <section id="habilidades">
     <div class="container">
-      <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo"><span>Habili</span>dades</h2>
-      <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo">
+      <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-3"><span>Habili</span>dades</h2>
+      <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo-3">
 
         Sou desenvolvedor front-end com experiência em tecnologias modernas que permitem criar interfaces dinâmicas,
         responsivas e de alta qualidade.
@@ -340,7 +350,7 @@
   <hr>
   <section id="form">
     <div class="container mt-4">
-      <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-3 titulo">Entre em</span><span> Contato</span></h2>
+      <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-3 titulo-4">Entre em</span><span> Contato</span></h2>
       <form data-aos="fade-right" data-aos-duration="2000" id="formWhatsApp">
         <div class="mb-3">
           <label for="nome" class="form-label text-input">Nome</label>
@@ -391,7 +401,25 @@
 
     window.open(url, "_blank");
 
+
+
   });
+
+  function temaClaro() {
+    document.body.style.backgroundColor = "white";
+    document.querySelector(".header").style.backgroundColor = "white";
+    document.querySelector(".paragrafo").style.color = "black";
+    document.querySelector(".frase-impacto").style.color = " black";
+    document.querySelector(".title").style.color = " black";
+    document.querySelector(".paragrafo-2").style.color = "black";
+    document.querySelector(".paragrafo-3").style.color = "black";
+    document.querySelector(".titulo-1").style.color = "black";
+    document.querySelector(".titulo-2").style.color = "black";
+    document.querySelector(".titulo-3").style.color = "black";
+    document.querySelector(".titulo-4").style.color = "black";
+
+  }
+
 </script>
 
 
