@@ -145,8 +145,8 @@ h2.titulo span{
     font-weight: bold;
     color: var(--corDetexto);
 }
-.paragrafo , .paragrafo-2, .paragrafo-3{
-    color: var(--corParagrafo);
+.paragrafo, .paragrafo2, .paragrafo3 {
+    color: var(--corDetexto);
     line-height: 25px;
 }
 
@@ -243,7 +243,6 @@ h2.titulo span{
     margin-top: 20px;
 }
 
-
 .input {
     background-color: transparent;
 }
@@ -269,8 +268,6 @@ footer{
     height: 190px;
     margin-bottom: 10px;
 }
-
-
 
 @media(max-width:769px) {
 
@@ -317,19 +314,16 @@ footer{
 }
     
     .paragrafo{
-        font-size: 17px;
-        
+        font-size: 17px;   
     }
-     .paragrafo-2{
-        font-size: 17px;
-        
+    .paragrafo2 {
+        font-size: 15px;
     }
-    
+     
     .btn-contact {
         width: 100%;
     }
     
-   
     .content-flex2 {
         display: grid;
         grid-template-columns: 1fr ;

@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg header fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand links" href="#">
-          <button id="tema" onclick="temaClaro()">Tema Claro</button>
+          <button id="tema" onclick="alterarTema()">Tema</button>
         </a>
         <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,20 +58,16 @@
       <div class="row content">
         <!-- Primeira Coluna -->
         <div class="col-md-6">
-          <!-- Frase de impacto antes do título -->
-          <p class="frase-impacto" data-aos="fade-right" data-aos-duration="1200">
-            Transformo ideias em experiências visuais impactantes
-          </p>
-
           <h1 data-aos="fade-right" data-aos-duration="1500" class="title">
             <span span-title>Dando vida ao digital</span> com criatividade e inovação
           </h1>
-
-          <p class="paragrafo">
-            Hoje, como desenvolvedor front-end, continuo aprendendo e evoluindo todos os dias.
-            Para mim, cada projeto é um novo desafio e uma oportunidade de superar limites.
-            Em tudo o que desenvolvo, busco impactar positivamente as pessoas — simplesmente porque amo programar.
-          </p>
+          <article>
+            <p class="paragrafo">
+              Hoje, como desenvolvedor front-end, continuo aprendendo e evoluindo todos os dias.
+              Para mim, cada projeto é um novo desafio e uma oportunidade de superar limites.
+              Em tudo o que desenvolvo, busco impactar positivamente as pessoas — simplesmente porque amo programar.
+            </p>
+          </article>
 
           <div data-aos="zoom-out-down" data-aos-duration="2000" class="btns">
             <a href="https://github.com/evenilsonguerreiro" target="_blank" class="btn btn-contact">Meu Github</a>
@@ -83,7 +79,8 @@
         <!-- Segunda Coluna -->
         <div class="col-md-6 content-avatar">
           <figure>
-            <img data-aos="flip-right" data-aos-duration="1500" src="/IMAGENS/programador.jpeg" alt="Descrição da Imagem">
+            <img data-aos="flip-right" data-aos-duration="1500" src="/IMAGENS/programador.jpeg"
+              alt="Descrição da Imagem">
           </figure>
         </div>
       </div>
@@ -96,27 +93,31 @@
       <div class="row align-items-center content2  ">
         <!-- Primeira Coluna -->
         <div class="col-md-6">
-         <figure>
-           <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="">
-         </figure>
+          <figure>
+            <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="">
+          </figure>
         </div>
         <!-- Segunda Coluna -->
         <div class="col-md-6 content-avatar">
           <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-1">MUITO PRAZER , EU SOU <br> <span>EVENILSON
             </span></h2>
-          <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo-2">Meu nome é Evenilson da Silva Almeida
-            e
-            estou cursando Desenvolvimento Front-end pela EBAC. Tenho grande interesse em fazer parte de uma equipe
-            inovadora, onde eu possa aplicar e expandir meus conhecimentos em HTML, CSS, JavaScript e frameworks
-            modernos.
+          <article>
+            <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo2">Meu nome é Evenilson da Silva Almeida
+              e
+              estou cursando Desenvolvimento Front-end pela EBAC. Tenho grande interesse em fazer parte de uma equipe
+              inovadora, onde eu possa aplicar e expandir meus conhecimentos em HTML, CSS, JavaScript e frameworks
+              modernos.
 
-            Estou sempre em busca de aprimorar minhas habilidades e estou disponível para conversar sobre oportunidades
-            e como posso contribuir para o crescimento da sua empresa.</p>
-            <div  class="audio">
-              <em>Minha jornada na programação</em> <br>
-              <audio src="/arquivo-mp3/minha-jornada.wav" controls></audio>
-            </div>
+              Estou sempre em busca de aprimorar minhas habilidades e estou disponível para conversar sobre
+              oportunidades
+              e como posso contribuir para o crescimento da sua empresa.</p>
+          </article>
+          <em>Minha jornada na programação</em>
+          <div class="audio">
             <br>
+            <audio src="/arquivo-mp3/minha-jornada.wav" controls></audio>
+          </div>
+          <br>
           <div>
             <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"><i
                 class="bi bi-linkedin"></i></a>
@@ -140,12 +141,13 @@
             class="card h-100 text-center p-3 bg-card text-white content-card ">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Eplay</h3>
-
-            <p class="card-text">
-              Bem-vindo ao nosso aplicativo de venda de filmes, uma plataforma intuitiva e dinâmica
-              desenvolvida com React! Aqui, você encontrará uma vasta coleção de filmes, desde os clássicos atemporais
-              até os lançamentos mais recentes.
-            </p>
+            <article>
+              <p class="card-text">
+                Bem-vindo ao nosso aplicativo de venda de filmes, uma plataforma intuitiva e dinâmica
+                desenvolvida com React! Aqui, você encontrará uma vasta coleção de filmes, desde os clássicos atemporais
+                até os lançamentos mais recentes.
+              </p>
+            </article>
 
             <a href="https://eplay-three-psi.vercel.app/" target="_blank" class="btn btn-link mt-auto">
               Link do Projeto
@@ -158,11 +160,12 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Cardapio</h3>
-
-            <p class="card-text">
-              Aplicativo de pedidos de hambúrguer online, desenvolvido com foco em uma interface amigável e atraente,
-              permitindo que os usuários naveguem pelo cardápio e realizem pedidos de forma prática.
-            </p>
+            <article>
+              <p class="card-text">
+                Aplicativo de pedidos de hambúrguer online, desenvolvido com foco em uma interface amigável e atraente,
+                permitindo que os usuários naveguem pelo cardápio e realizem pedidos de forma prática.
+              </p>
+            </article>
 
             <a href="https://cardapio-burger-navy.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
@@ -175,11 +178,12 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Cep</h3>
-
-            <p class="card-text">
-              Aplicativo para consulta de CEP, oferecendo informações detalhadas sobre endereços a partir do código
-              postal. Criado com foco em simplicidade e usabilidade, proporcionando uma experiência fluida ao usuário.
-            </p>
+            <article>
+              <p class="card-text">
+                Aplicativo para consulta de CEP, oferecendo informações detalhadas sobre endereços a partir do código
+                postal. Criado com foco em simplicidade e usabilidade, proporcionando uma experiência fluida ao usuário.
+              </p>
+            </article>
 
             <a href="https://api-cep-mauve.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
@@ -192,12 +196,14 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Clone</h3>
-
-            <p class="card-text">
-              Aplicação de streaming de filmes, onde os usuários podem explorar uma extensa biblioteca, assistir
-              trailers e visualizar informações completas sobre cada título. Desenvolvido para ser envolvente e fácil de
-              navegar.
-            </p>
+            <article>
+              <p class="card-text">
+                Aplicação de streaming de filmes, onde os usuários podem explorar uma extensa biblioteca, assistir
+                trailers e visualizar informações completas sobre cada título. Desenvolvido para ser envolvente e fácil
+                de
+                navegar.
+              </p>
+            </article>
 
             <a href="https://even-clone-warriors.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
@@ -211,11 +217,13 @@
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">UBS-Maracanaú</h3>
 
-            <p class="card-text">
-              Aplicação simples e prática desenvolvida para consultar informações das Unidades Básicas de Saúde de
-              Maracanaú, como nome, bairro, endereço. O projeto foi criado com foco em rapidez
-              e fácil acesso para o usuário.
-            </p>
+            <article>
+              <p class="card-text">
+                Aplicação simples e prática desenvolvida para consultar informações das Unidades Básicas de Saúde de
+                Maracanaú, como nome, bairro, endereço. O projeto foi criado com foco em rapidez
+                e fácil acesso para o usuário.
+              </p>
+            </article>
 
             <a href="https://ubs-maracanau.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
@@ -228,12 +236,12 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Site-salão</h3>
-
-            <p class="card-text">
-              Site desenvolvido para um salão de beleza, com sistema de agendamento simples e rápido. A plataforma
-              apresenta serviços, preços e funcionalidades pensadas para facilitar a vida do cliente.
-            </p>
-
+            <article>
+              <p class="card-text">
+                Site desenvolvido para um salão de beleza, com sistema de agendamento simples e rápido. A plataforma
+                apresenta serviços, preços e funcionalidades pensadas para facilitar a vida do cliente.
+              </p>
+            </article>
             <a href="https://site-salao.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
             </a>
@@ -245,12 +253,12 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Cauculadora-imc</h3>
-
-            <p class="card-text">
-              Aplicativo de cálculo de IMC desenvolvido em React, com o objetivo de fornecer uma ferramenta prática e
-              eficiente para acompanhar peso e saúde.
-            </p>
-
+            <article>
+              <p class="card-text">
+                Aplicativo de cálculo de IMC desenvolvido em React, com o objetivo de fornecer uma ferramenta prática e
+                eficiente para acompanhar peso e saúde.
+              </p>
+            </article>
             <a href="https://calculadora-imc-react-wheat.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
             </a>
@@ -262,12 +270,12 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Ficha de clientes</h3>
-
-            <p class="card-text">
-              Aplicativo desenvolvido para pet shops, com o objetivo de otimizar atendimentos e controlar custos. A
-              plataforma conta com tabelas organizadas para registrar serviços, valores e informações importantes.
-            </p>
-
+            <article>
+              <p class="card-text">
+                Aplicativo desenvolvido para pet shops, com o objetivo de otimizar atendimentos e controlar custos. A
+                plataforma conta com tabelas organizadas para registrar serviços, valores e informações importantes.
+              </p>
+            </article>
             <a href="https://ficha-clientes.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
             </a>
@@ -279,12 +287,13 @@
             class="card h-100 text-center p-3 bg-card text-white content-card">
             <i class="bi bi-code-square display-4 mb-3"></i>
             <h3 class="card-title">Pet shop</h3>
-
-            <p class="card-text">
-              Aplicativo para Pet Shop
-              , com o objetivo de otimizar o gerenciamento de atendimentos e custos. O aplicativo conta com uma tabela
-              onde os proprietário podem inserir informações importantes.
-            </p>
+            <article>
+              <p class="card-text">
+                Aplicativo para Pet Shop
+                , com o objetivo de otimizar o gerenciamento de atendimentos e custos. O aplicativo conta com uma tabela
+                onde os proprietário podem inserir informações importantes.
+              </p>
+            </article>
 
             <a href="https://hiper-pet-shop.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
               Link do Projeto
@@ -299,21 +308,23 @@
   <section id="habilidades">
     <div class="container">
       <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-3"><span>Habili</span>dades</h2>
-      <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo-3">
+      <article>
+        <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo3">
 
-        Sou desenvolvedor front-end com experiência em tecnologias modernas que permitem criar interfaces dinâmicas,
-        responsivas e de alta qualidade.
+          Sou desenvolvedor front-end com experiência em tecnologias modernas que permitem criar interfaces dinâmicas,
+          responsivas e de alta qualidade.
 
-        HTML5: Estruturas semânticas e acessíveis, seguindo boas práticas de SEO.
-        CSS3: Criação de layouts modernos utilizando Flexbox, Grid, animações e transições.
-        JavaScript: Desenvolvimento de funcionalidades interativas com foco em performance e usabilidade.
-        TypeScript: Tipagem estática para aplicações mais seguras, escaláveis e fáceis de manter.
-        Bootstrap: Construção de interfaces responsivas com abordagem mobile-first.
-        React: Criação de componentes reutilizáveis e interfaces dinâmicas e escaláveis.
+          HTML5: Estruturas semânticas e acessíveis, seguindo boas práticas de SEO.
+          CSS3: Criação de layouts modernos utilizando Flexbox, Grid, animações e transições.
+          JavaScript: Desenvolvimento de funcionalidades interativas com foco em performance e usabilidade.
+          TypeScript: Tipagem estática para aplicações mais seguras, escaláveis e fáceis de manter.
+          Bootstrap: Construção de interfaces responsivas com abordagem mobile-first.
+          React: Criação de componentes reutilizáveis e interfaces dinâmicas e escaláveis.
 
-        Essas habilidades me permitem desenvolver soluções eficientes, modernas e com excelente experiência para o
-        usuário..
-      </p>
+          Essas habilidades me permitem desenvolver soluções eficientes, modernas e com excelente experiência para o
+          usuário..
+        </p>
+      </article>
       <div class="row  ">
         <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center ">
           <img class="tec"
@@ -370,9 +381,11 @@
 
   <footer>
     <div class="container">
-      Todos os direitos resevados ao senhor Jesus<br>
-      Dev - Evenilson Almeida <br>
-      &copy; <span footer-span id="year"></span>
+      <article>
+        Todos os direitos resevados ao senhor Jesus<br>
+        Dev - Evenilson Almeida <br>
+        &copy; <span footer-span id="year"></span>
+      </article>
     </div>
   </footer>
 
@@ -383,44 +396,14 @@
 <script>
   AOS.init();
 </script>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-
-  document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const nome = document.getElementById("nome").value;
-    const mensagem = document.getElementById("mensagem").value;
-
-    const numero = "5585988540568"; // 55 + DDD + número → EX: 5599999999999
-
-    const texto = `Olá, meu nome é ${nome}.%0A${mensagem}`;
-
-    const url = `https://wa.me/${numero}?text=${texto}`;
-
-    window.open(url, "_blank");
+<script src="/script.js"></script>
 
 
 
-  });
 
-  function temaClaro() {
-    document.body.style.backgroundColor = "white";
-    document.querySelector(".header").style.backgroundColor = "white";
-    document.querySelector(".paragrafo").style.color = "black";
-    document.querySelector(".frase-impacto").style.color = " black";
-    document.querySelector(".title").style.color = " black";
-    document.querySelector(".paragrafo-2").style.color = "black";
-    document.querySelector(".paragrafo-3").style.color = "black";
-    document.querySelector(".titulo-1").style.color = "black";
-    document.querySelector(".titulo-2").style.color = "black";
-    document.querySelector(".titulo-3").style.color = "black";
-    document.querySelector(".titulo-4").style.color = "black";
 
-  }
 
-</script>
+
 
 
 </html>
