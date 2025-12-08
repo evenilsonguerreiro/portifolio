@@ -19,8 +19,8 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg header fixed-top">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg header fixed-top  ">
+      <div class="container-fluid ">
         <a class="navbar-brand links" href="#">
           <button id="tema" onclick="alterarTema()">Tema</button>
         </a>
@@ -29,8 +29,8 @@
           <span class="navbar-toggler-icon icone"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item ">
               <a data-aos="fade-down" data-aos-duration="1500" class="nav-link  links" aria-current="page"
                 href="#home">Home</a>
             </li>
@@ -53,331 +53,345 @@
     </nav>
   </div>
 
-  <section id="home">
-    <div class="container mt-5">
-      <div class="row content">
-        <!-- Primeira Coluna -->
-        <div class="col-md-6">
-          <h1 data-aos="fade-right" data-aos-duration="1500" class="title">
-            <span span-title>Dando vida ao digital</span> com criatividade e inovação
-          </h1>
-          <article>
-            <p class="paragrafo">
-              Hoje, como desenvolvedor front-end, continuo aprendendo e evoluindo todos os dias.
-              Para mim, cada projeto é um novo desafio e uma oportunidade de superar limites.
-              Em tudo o que desenvolvo, busco impactar positivamente as pessoas — simplesmente porque amo programar.
-            </p>
-          </article>
+  <main>
+    <section id="home">
+      <div class="container mt-5">
+        <div class="row content">
+          <!-- Primeira Coluna -->
+          <div class="col-md-6">
+            <h1 data-aos="fade-right" data-aos-duration="1500" class="title">
+              <span span-title>Dando vida ao digital</span> com criatividade e inovação
+            </h1>
+            <article>
+              <p class="paragrafo">
+                Hoje, como <strong>desenvolvedor front-end</strong>, continuo aprendendo e evoluindo todos os dias.
+                Para mim, cada projeto é um novo desafio e uma oportunidade de superar limites.
+                Em tudo o que desenvolvo, busco impactar positivamente as pessoas — simplesmente porque amo programar.
+              </p>
+            </article>
 
-          <div data-aos="zoom-out-down" data-aos-duration="2000" class="btns">
-            <a href="https://github.com/evenilsonguerreiro" target="_blank" class="btn btn-contact">Meu Github</a>
-            <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"
-              class="btn btn-contact">Meu Linkedin</a>
+            <div data-aos="zoom-out-down" data-aos-duration="2000" class="btns">
+              <a href="https://github.com/evenilsonguerreiro" target="_blank" class="btn btn-contact">Meu Github</a>
+              <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"
+                class="btn btn-contact">Meu Linkedin</a>
+            </div>
           </div>
-        </div>
 
-        <!-- Segunda Coluna -->
-        <div class="col-md-6 content-avatar">
-          <figure>
-            <img data-aos="flip-right" data-aos-duration="1500" src="/IMAGENS/programador.jpeg"
-              alt="Descrição da Imagem">
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr>
-
-  <section id="sobre">
-    <div class="container mt-5">
-      <div class="row align-items-center content2  ">
-        <!-- Primeira Coluna -->
-        <div class="col-md-6">
-          <figure>
-            <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="">
-          </figure>
-        </div>
-        <!-- Segunda Coluna -->
-        <div class="col-md-6 content-avatar">
-          <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-1">MUITO PRAZER , EU SOU <br> <span>EVENILSON
-            </span></h2>
-          <article>
-            <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo2">Meu nome é Evenilson da Silva Almeida
-              e
-              estou cursando Desenvolvimento Front-end pela EBAC. Tenho grande interesse em fazer parte de uma equipe
-              inovadora, onde eu possa aplicar e expandir meus conhecimentos em HTML, CSS, JavaScript e frameworks
-              modernos.
-
-              Estou sempre em busca de aprimorar minhas habilidades e estou disponível para conversar sobre
-              oportunidades
-              e como posso contribuir para o crescimento da sua empresa.</p>
-          </article>
-          <em>Minha jornada na programação</em>
-          <div class="audio">
-            <br>
-            <audio src="/arquivo-mp3/minha-jornada.wav" controls></audio>
-          </div>
-          <br>
-          <div>
-            <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"><i
-                class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/evenilsonguerreiro" target="_blank"><i class="bi bi-github"></i></a>
+          <!-- Segunda Coluna -->
+          <div class="col-md-6 content-avatar">
+            <figure>
+              <img data-aos="flip-right" data-aos-duration="1500" src="/IMAGENS/programador.jpeg"
+                alt="Descrição da Imagem">
+            </figure>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="projetos">
+    </section>
     <hr>
-    <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-2 text-center mb-4">
-      MEUS <span>PROJETOS</span>
-    </h2>
-    <div class="container">
-      <div class="row g-4">
-        <!-- Card 1 -->
-        <div class="col-12 col-md-6 col-lg-4 ">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card ">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Eplay</h3>
-            <article>
-              <p class="card-text">
-                Bem-vindo ao nosso aplicativo de venda de filmes, uma plataforma intuitiva e dinâmica
-                desenvolvida com React! Aqui, você encontrará uma vasta coleção de filmes, desde os clássicos atemporais
-                até os lançamentos mais recentes.
-              </p>
-            </article>
 
-            <a href="https://eplay-three-psi.vercel.app/" target="_blank" class="btn btn-link mt-auto">
-              Link do Projeto
-            </a>
+    <section id="sobre">
+      <div class="container mt-5">
+        <div class="row align-items-center content2  ">
+          <!-- Primeira Coluna -->
+          <div class="col-md-6">
+            <figure>
+              <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="">
+            </figure>
           </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Cardapio</h3>
+          <!-- Segunda Coluna -->
+          <div class="col-md-6 content-avatar">
+            <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-1">MUITO PRAZER , EU SOU <br>
+              <span>EVENILSON
+              </span></h2>
             <article>
-              <p class="card-text">
-                Aplicativo de pedidos de hambúrguer online, desenvolvido com foco em uma interface amigável e atraente,
-                permitindo que os usuários naveguem pelo cardápio e realizem pedidos de forma prática.
-              </p>
+              <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo2">Meu nome é Evenilson da Silva
+                Almeida
+                e
+                estou cursando Desenvolvimento Front-end pela EBAC. Tenho grande interesse em fazer parte de uma equipe
+                inovadora, onde eu possa aplicar e expandir meus conhecimentos em <strong>HTML, CSS, JavaScript e
+                  frameworks</strong>
+                modernos.
+
+                Estou sempre em busca de aprimorar minhas habilidades e estou disponível para conversar sobre
+                oportunidades
+                e como posso contribuir para o crescimento da sua empresa.</p>
             </article>
-
-            <a href="https://cardapio-burger-navy.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Cep</h3>
-            <article>
-              <p class="card-text">
-                Aplicativo para consulta de CEP, oferecendo informações detalhadas sobre endereços a partir do código
-                postal. Criado com foco em simplicidade e usabilidade, proporcionando uma experiência fluida ao usuário.
-              </p>
-            </article>
-
-            <a href="https://api-cep-mauve.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Clone</h3>
-            <article>
-              <p class="card-text">
-                Aplicação de streaming de filmes, onde os usuários podem explorar uma extensa biblioteca, assistir
-                trailers e visualizar informações completas sobre cada título. Desenvolvido para ser envolvente e fácil
-                de
-                navegar.
-              </p>
-            </article>
-
-            <a href="https://even-clone-warriors.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">UBS-Maracanaú</h3>
-
-            <article>
-              <p class="card-text">
-                Aplicação simples e prática desenvolvida para consultar informações das Unidades Básicas de Saúde de
-                Maracanaú, como nome, bairro, endereço. O projeto foi criado com foco em rapidez
-                e fácil acesso para o usuário.
-              </p>
-            </article>
-
-            <a href="https://ubs-maracanau.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Site-salão</h3>
-            <article>
-              <p class="card-text">
-                Site desenvolvido para um salão de beleza, com sistema de agendamento simples e rápido. A plataforma
-                apresenta serviços, preços e funcionalidades pensadas para facilitar a vida do cliente.
-              </p>
-            </article>
-            <a href="https://site-salao.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Cauculadora-imc</h3>
-            <article>
-              <p class="card-text">
-                Aplicativo de cálculo de IMC desenvolvido em React, com o objetivo de fornecer uma ferramenta prática e
-                eficiente para acompanhar peso e saúde.
-              </p>
-            </article>
-            <a href="https://calculadora-imc-react-wheat.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Ficha de clientes</h3>
-            <article>
-              <p class="card-text">
-                Aplicativo desenvolvido para pet shops, com o objetivo de otimizar atendimentos e controlar custos. A
-                plataforma conta com tabelas organizadas para registrar serviços, valores e informações importantes.
-              </p>
-            </article>
-            <a href="https://ficha-clientes.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4">
-          <div data-aos="fade-down" data-aos-duration="1500"
-            class="card h-100 text-center p-3 bg-card text-white content-card">
-            <i class="bi bi-code-square display-4 mb-3"></i>
-            <h3 class="card-title">Pet shop</h3>
-            <article>
-              <p class="card-text">
-                Aplicativo para Pet Shop
-                , com o objetivo de otimizar o gerenciamento de atendimentos e custos. O aplicativo conta com uma tabela
-                onde os proprietário podem inserir informações importantes.
-              </p>
-            </article>
-
-            <a href="https://hiper-pet-shop.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
-              Link do Projeto
-            </a>
+            <em>Minha jornada na programação</em>
+            <div class="audio">
+              <br>
+              <audio src="/arquivo-mp3/minha-jornada.wav" controls></audio>
+            </div>
+            <br>
+            <div>
+              <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"><i
+                  class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/evenilsonguerreiro" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <hr>
-  <section id="habilidades">
-    <div class="container">
-      <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-3"><span>Habili</span>dades</h2>
-      <article>
-        <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo3">
+    <section id="projetos">
+      <hr>
+      <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-2 text-center mb-4">
+        MEUS <span>PROJETOS</span>
+      </h2>
+      <div class="container">
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card ">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Eplay</h3>
+              <article>
+                <p class="card-text">
+                  Bem-vindo ao nosso aplicativo de venda de filmes, uma plataforma intuitiva e dinâmica
+                  desenvolvida com React! Aqui, você encontrará uma vasta coleção de filmes, desde os clássicos
+                  atemporais
+                  até os lançamentos mais recentes.
+                </p>
+              </article>
 
-          Sou desenvolvedor front-end com experiência em tecnologias modernas que permitem criar interfaces dinâmicas,
-          responsivas e de alta qualidade.
+              <a href="https://eplay-three-psi.vercel.app/" target="_blank" class="btn btn-link mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
 
-          HTML5: Estruturas semânticas e acessíveis, seguindo boas práticas de SEO.
-          CSS3: Criação de layouts modernos utilizando Flexbox, Grid, animações e transições.
-          JavaScript: Desenvolvimento de funcionalidades interativas com foco em performance e usabilidade.
-          TypeScript: Tipagem estática para aplicações mais seguras, escaláveis e fáceis de manter.
-          Bootstrap: Construção de interfaces responsivas com abordagem mobile-first.
-          React: Criação de componentes reutilizáveis e interfaces dinâmicas e escaláveis.
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Cardapio</h3>
+              <article>
+                <p class="card-text">
+                  Aplicativo de pedidos de hambúrguer online, desenvolvido com foco em uma interface amigável e
+                  atraente,
+                  permitindo que os usuários naveguem pelo cardápio e realizem pedidos de forma prática.
+                </p>
+              </article>
 
-          Essas habilidades me permitem desenvolver soluções eficientes, modernas e com excelente experiência para o
-          usuário..
-        </p>
-      </article>
-      <div class="row  ">
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center ">
-          <img class="tec"
-            src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center  ">
-          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-            alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-          <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
-            alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center ">
-          <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
-            alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-          <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
-            alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="">
-        </div>
-        <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-          <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="">
+              <a href="https://cardapio-burger-navy.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Cep</h3>
+              <article>
+                <p class="card-text">
+                  Aplicativo para consulta de CEP, oferecendo informações detalhadas sobre endereços a partir do código
+                  postal. Criado com foco em simplicidade e usabilidade, proporcionando uma experiência fluida ao
+                  usuário.
+                </p>
+              </article>
+
+              <a href="https://api-cep-mauve.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Clone</h3>
+              <article>
+                <p class="card-text">
+                  Aplicação de streaming de filmes, onde os usuários podem explorar uma extensa biblioteca, assistir
+                  trailers e visualizar informações completas sobre cada título. Desenvolvido para ser envolvente e
+                  fácil
+                  de
+                  navegar.
+                </p>
+              </article>
+
+              <a href="https://even-clone-warriors.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">UBS-Maracanaú</h3>
+
+              <article>
+                <p class="card-text">
+                  Aplicação simples e prática desenvolvida para consultar informações das Unidades Básicas de Saúde de
+                  Maracanaú, como nome, bairro, endereço. O projeto foi criado com foco em rapidez
+                  e fácil acesso para o usuário.
+                </p>
+              </article>
+
+              <a href="https://ubs-maracanau.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Site-salão</h3>
+              <article>
+                <p class="card-text">
+                  Site desenvolvido para um salão de beleza, com sistema de agendamento simples e rápido. A plataforma
+                  apresenta serviços, preços e funcionalidades pensadas para facilitar a vida do cliente.
+                </p>
+              </article>
+              <a href="https://site-salao.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Cauculadora-imc</h3>
+              <article>
+                <p class="card-text">
+                  Aplicativo de cálculo de IMC desenvolvido em React, com o objetivo de fornecer uma ferramenta prática
+                  e
+                  eficiente para acompanhar peso e saúde.
+                </p>
+              </article>
+              <a href="https://calculadora-imc-react-wheat.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Ficha de clientes</h3>
+              <article>
+                <p class="card-text">
+                  Aplicativo desenvolvido para pet shops, com o objetivo de otimizar atendimentos e controlar custos. A
+                  plataforma conta com tabelas organizadas para registrar serviços, valores e informações importantes.
+                </p>
+              </article>
+              <a href="https://ficha-clientes.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-down" data-aos-duration="1500"
+              class="card h-100 text-center p-3 bg-card text-white content-card">
+              <i class="bi bi-code-square display-4 mb-3"></i>
+              <h3 class="card-title">Pet shop</h3>
+              <article>
+                <p class="card-text">
+                  Aplicativo para Pet Shop
+                  , com o objetivo de otimizar o gerenciamento de atendimentos e custos. O aplicativo conta com uma
+                  tabela
+                  onde os proprietário podem inserir informações importantes.
+                </p>
+              </article>
+
+              <a href="https://hiper-pet-shop.vercel.app/" target="_blank" class="btn btn-link  mt-auto">
+                Link do Projeto
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <hr>
-  <section id="form">
-    <div class="container mt-4">
-      <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-3 titulo-4">Entre em</span><span> Contato</span></h2>
-      <form data-aos="fade-right" data-aos-duration="2000" id="formWhatsApp">
-        <div class="mb-3">
-          <label for="nome" class="form-label text-input">Nome</label>
-          <input type="text" class="form-control input" id="nome" placeholder="Digite seu nome" required />
+    </section>
+
+    <hr>
+    <section id="habilidades">
+      <div class="container">
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo-3"><span>Habili</span>dades</h2>
+        <article>
+          <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo3">
+
+            Sou desenvolvedor front-end com experiência em tecnologias modernas que permitem criar interfaces dinâmicas,
+            responsivas e de alta qualidade.
+
+            HTML5: Estruturas semânticas e acessíveis, seguindo boas práticas de SEO.
+            CSS3: Criação de layouts modernos utilizando Flexbox, Grid, animações e transições.
+            JavaScript: Desenvolvimento de funcionalidades interativas com foco em performance e usabilidade.
+            TypeScript: Tipagem estática para aplicações mais seguras, escaláveis e fáceis de manter.
+            Bootstrap: Construção de interfaces responsivas com abordagem mobile-first.
+            React: Criação de componentes reutilizáveis e interfaces dinâmicas e escaláveis.
+
+            Essas habilidades me permitem desenvolver soluções eficientes, modernas e com excelente experiência para o
+            usuário..
+          </p>
+        </article>
+        <div class="row  ">
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center ">
+            <img class="tec"
+              src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center  ">
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
+            <img
+              src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+              alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
+            <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
+              alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center ">
+            <img
+              src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+              alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
+            <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+              alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
+            <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="">
+          </div>
+          <div class="col-md-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
+            <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="">
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="mensagem" class="form-label text-input">Mensagem</label>
-          <textarea class="form-control input" id="mensagem" rows="4" placeholder="Digite sua mensagem"
-            required></textarea>
-        </div>
-        <button type="submit" class="btn btn-enviar">
-          Enviar
-        </button>
-      </form>
-    </div>
-  </section>
+      </div>
+    </section>
+    <hr>
+    <section id="form">
+      <div class="container mt-4">
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-3 titulo-4">Entre em</span><span> Contato</span>
+        </h2>
+        <form data-aos="fade-right" data-aos-duration="2000" id="formWhatsApp">
+          <div class="mb-3">
+            <label for="nome" class="form-label text-input">Nome</label>
+            <input type="text" class="form-control input" id="nome" placeholder="Digite seu nome" required />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label text-input">Mensagem</label>
+            <textarea class="form-control input" id="mensagem" rows="4" placeholder="Digite sua mensagem"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-enviar">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <div class="container">

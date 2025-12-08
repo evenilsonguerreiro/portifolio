@@ -5,59 +5,68 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
 }
+
 :root {
-    --corPrincipal:#25CCF7;
-    --corDetexto:#ecf0f1;
-    --corDefundo:#000;
-    --corParagrafo:#d1ccc0;
-    --corEnviar:#0be881;
+    --corPrincipal: #25CCF7;
+    --corDetexto: #ecf0f1;
+    --corDefundo: #000;
+    --corParagrafo: #d1ccc0;
+    --corEnviar: #0be881;
 }
-#tema{
+
+#tema {
     background-color: var(--corPrincipal);
     color: var(--corDefundo);
     font-size: 18px;
-    padding: 5px; 
-    border-radius: 5px; 
-    border: 0; 
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
 }
 
 body {
     background-color: var(--corDefundo);
+    padding-top: 70px;
 
 }
-span , .span-title  {
+
+span,
+.span-title {
     color: var(--corPrincipal);
 }
+
 .titulo-2 {
     color: var(--corDetexto);
 }
 
-
-
 .frase-impacto {
-  font-size: 1.1rem;
-  color: #6c757d; /* Cinza suave */
-  margin-bottom: 10px;
-  font-weight: 500;
+    font-size: 1.1rem;
+    color: #6c757d;
+    /* Cinza suave */
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .header {
-    max-width: 1309px; 
-    width: 100%; 
+    max-width: 1309px;
+    width: 100%;
     height: 100px;
-    margin: auto; 
+    margin: auto;
     background-color: var(--corDefundo);
-    
 }
-h2.titulo, .titulo-3, .titulo-4, .titulo-1{
-    color:var(--corDetexto);
+
+h2.titulo,
+.titulo-3,
+.titulo-4,
+.titulo-1 {
+    color: var(--corDetexto);
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-h2.titulo span{
-    color:var(--corPrincipal);
+
+h2.titulo span {
+    color: var(--corPrincipal);
 }
 
 .header .links {
@@ -65,14 +74,16 @@ h2.titulo span{
     font-size: 18px;
     transition: .3s;
 }
-.header .links:hover{
+
+.header .links:hover {
     letter-spacing: 2px;
 }
+
 .btn-enviar {
     background-color: var(--corPrincipal);
 }
 
-.btn-contact a{
+.btn-contact a {
     color: var(--corDetexto);
     text-decoration: none;
 }
@@ -83,7 +94,7 @@ h2.titulo span{
     border: none;
     outline: none;
     color: #fff;
-    background:var(--corPrincipal);
+    background: var(--corPrincipal);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -91,9 +102,9 @@ h2.titulo span{
     font-size: 20px;
     margin-top: 16px;
 
-  }
-  
-  .btn-contact:before {
+}
+
+.btn-contact:before {
     content: '';
     background: linear-gradient(45deg, #25CCF7, #0077ff, #1900ff, #8d6611, #5900ff, #25CCF7, #25CCF7, #25CCF7, #25CCF7);
     position: absolute;
@@ -106,23 +117,31 @@ h2.titulo span{
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     border-radius: 10px;
-  }
-  
-  .btn-contact:active {
+}
+
+.btn-contact:active {
     color: #000;
-  }
-  
-  .btn-contact:active:after {
+}
+
+.btn-contact:active:after {
     background: transparent;
-  }
-  
-  @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-  }
-  
-  .btn-contact:after {
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.btn-contact:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -132,41 +151,46 @@ h2.titulo span{
     left: 0;
     top: 0;
     border-radius: 10px;
-  }
-
-.content{
-    margin-top: 200px;
-    margin-bottom: 80px;
-   
 }
 
-.title{
-    font-size:48px;
+.content {
+    margin-top: 200px;
+    margin-bottom: 80px;
+
+}
+
+.title {
+    font-size: 48px;
     font-weight: bold;
     color: var(--corDetexto);
 }
-.paragrafo, .paragrafo2, .paragrafo3 {
+
+.paragrafo,
+.paragrafo2,
+.paragrafo3 {
     color: var(--corDetexto);
     line-height: 25px;
 }
 
-.content-avatar img{
+.content-avatar img {
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    margin-left: 380px;  
+    margin-left: 380px;
     margin-top: 50px;
 }
 
 
 @keyframes flutuar {
-    0%{
+    0% {
         left: 0;
     }
-    100%{
+
+    100% {
         left: 30px;
     }
 }
+
 .bg-card {
     background-color: var(--corDefundo);
 }
@@ -180,63 +204,74 @@ h2.titulo span{
     border-radius: 20px;
     transition: .2s;
 }
-.content-card:hover{
+
+.content-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--corPrincipal);
 }
 
-.content-card i{
-    color:var(--corPrincipal);
+.content-card i {
+    color: var(--corPrincipal);
     font-size: 38px;
 
 }
-.content-card h3{
+
+.content-card h3 {
     font-size: 20px;
 }
-.content-card p{
+
+.content-card p {
     color: var(--corParagrafo);
 }
+
 .content-card h4 {
     font-size: 16px;
     margin-top: 10px;
-    text-align: center; 
-    
+    text-align: center;
+
 }
 
-.btn-link{
+.btn-link {
     border: solid 2px var(--corPrincipal);
     color: var(--corDefundo);
 }
+
 .content-card a {
     color: var(--corPrincipal);
-    text-decoration: none;  
+    text-decoration: none;
 }
 
-.content-card-span  {
+.content-card-span {
     text-align: center;
 }
-.content2{
+
+.content2 {
     margin-top: 100px;
 }
 
-.content2 img{
+.content2 img {
     width: 360px;
     border-radius: 5px;
 }
-.content2 i{
+
+.content2 i {
     color: var(--corPrincipal);
     font-size: 25px;
 }
-.content2 h2{
+
+.content2 h2 {
     font-size: 35px;
 }
-.content2 span{
+
+.content2 span {
     color: var(--corPrincipal);
 }
+
 #habilidades {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 #habilidades img {
     width: 350px;
     height: 60px;
@@ -246,13 +281,14 @@ h2.titulo span{
 .input {
     background-color: transparent;
 }
+
 .text-input {
     color: var(--corDetexto);
 }
 
-footer{
+footer {
     width: 100%;
-     margin-top: 100px;
+    margin-top: 100px;
     padding: 16px;
     background-color: var(--corPrincipal);
     color: var(--corDetexto);
@@ -261,9 +297,10 @@ footer{
     span {
         color: var(--corDetexto);
     }
-    
+
 }
-.p{
+
+.p {
     width: 380px;
     height: 190px;
     margin-bottom: 10px;
@@ -271,87 +308,97 @@ footer{
 
 @media(max-width:769px) {
 
-    h1{
-    color: var(--corDetexto);
-    font-size: 18px;   
-}
-    .container{
+    h1 {
+        color: var(--corDetexto);
+        font-size: 18px;
+    }
+
+    .container {
         max-width: 90%;
     }
+
     .header {
-        width: 100%; 
+        width: 100%;
         height: 100px;
-        margin: auto; 
+        margin: auto;
         background-color: var(--corDefundo);
 
-        .menu{
+        .menu {
             background-color: var(--corDetexto);
         }
     }
+
     .header .links {
         color: var(--corPrincipal);
         font-size: 12px;
         transition: .3s;
     }
-    .header .links:hover{
+
+    .header .links:hover {
         letter-spacing: 2px;
     }
 
-    .content-avatar img{
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    margin-left: 0;  
-}
-    .content{
-    margin-top: 400px;
-    margin-bottom: 80px; 
-    margin-left: 0px; 
-    
     .content-avatar img {
-        margin-top: 30px;
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        margin-left: 0;
     }
-}
-    
-    .paragrafo{
-        font-size: 17px;   
+
+    .content {
+        margin-top: 150px;
+        margin-bottom: 80px;
+        margin-left: 0px;
+
+        .content-avatar img {
+            margin-top: 30px;
+        }
     }
+
+    .paragrafo {
+        font-size: 17px;
+    }
+
     .paragrafo2 {
         font-size: 15px;
     }
-     
+
     .btn-contact {
         width: 100%;
     }
-    
+
     .content-flex2 {
         display: grid;
-        grid-template-columns: 1fr ;
-    
+        grid-template-columns: 1fr;
+
     }
-    h2.titulo,.content-avatar{
-        color:var(--corDetexto);
+
+    h2.titulo,
+    .content-avatar {
+        color: var(--corDetexto);
         font-size: 30px;
         text-align: center;
         margin-bottom: 20px;
         text-transform: uppercase;
     }
 
-    #sobre img{
+    #sobre img {
         width: 100%;
         margin-bottom: 10px;
     }
-    .p{
+
+    .p {
         width: 250px;
         height: 190px;
         margin-bottom: 35px;
-        
-    }
-    .title {
-        font-size:30px;
+
     }
 
-    .skills img  {
+    .title {
+        font-size: 30px;
+    }
+
+    .skills img {
         width: 320px;
         display: flex;
         margin: 0 auto;
@@ -361,13 +408,15 @@ footer{
     em {
         font-size: 10px;
     }
+
     .audio {
         width: 300px;
         margin: auto;
     }
+
     #tema {
         width: 100px;
         font-size: 10px;
     }
-    
+
 }

@@ -29,7 +29,7 @@ function alterarTema() {
         document.querySelector(".titulo-3").style.color = "black"
         document.querySelector(".titulo-4").style.color = "black"
 
-    }
+}
 
     else {
         document.body.style.backgroundColor = "black";
