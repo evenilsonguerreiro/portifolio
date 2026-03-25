@@ -23,6 +23,11 @@
     border: 0;
 }
 
+#tema:hover {
+    background-color: var(--corDefundo);
+    color: var(--corDetexto)
+}
+
 body {
     background-color: var(--corDefundo);
     padding-top: 70px;
@@ -233,11 +238,12 @@ h2.titulo span {
 
 .btn-link {
     border: solid 2px var(--corPrincipal);
-    color: var(--corDefundo);
+    background-color: var(--corPrincipal);
+
 }
 
 .content-card a {
-    color: var(--corPrincipal);
+    color: var(--corDetexto);
     text-decoration: none;
 }
 

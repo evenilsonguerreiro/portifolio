@@ -17,6 +17,9 @@ document.getElementById("formWhatsApp").addEventListener("submit", function (e) 
     window.open(url, "_blank");
 });
 
+let $header = document.querySelector(".header")
+// declarando a vareavel //
+
 function alterarTema() {
     if (document.body.style.backgroundColor === "black") {
         document.body.style.backgroundColor = "white";
@@ -29,7 +32,11 @@ function alterarTema() {
         document.querySelector(".titulo-3").style.color = "black"
         document.querySelector(".titulo-4").style.color = "black"
 
-}
+        $header.style.backgroundColor = "white"
+
+        // outra forma de deixar o código mais curto // declarando a vareavel 
+
+    }
 
     else {
         document.body.style.backgroundColor = "black";
@@ -43,5 +50,14 @@ function alterarTema() {
         document.querySelector(".paragrafo2").style.color = "white"
         document.querySelector(".paragrafo3").style.color = "white"
 
+        document.querySelector(".header").style.backgroundColor = "black"
+
     }
 }
+
+
+setTimeout(() => {
+    alert("Seja Bem-Vindos")
+}, 3000);
+
+
