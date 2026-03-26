@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -8,7 +8,7 @@ document.getElementById("formWhatsApp").addEventListener("submit", function (e) 
     const nome = document.getElementById("nome").value;
     const mensagem = document.getElementById("mensagem").value;
 
-    const numero = "5585988540568"; // 55 + DDD + número → EX: 5599999999999
+    const numero = "5585988540568"; 
 
     const texto = `Olá, meu nome é ${nome}.%0A${mensagem}`;
 
