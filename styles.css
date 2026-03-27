@@ -31,9 +31,16 @@
 body {
     background-color: var(--corDefundo);
     padding-top: 70px;
-
 }
 
+body.tema-claro {
+    background-color: var(--corDetexto);   
+    color: var(--corDefundo);
+    .paragrafo, .paragrafo2, .paragrafo3, .paragrafo4, .titulo-1, .titulo-2, .titulo-3, .titulo-4, .btn-contact, .title {
+        color: var(--corDefundo);
+    }
+    
+}
 span,
 .span-title {
     color: var(--corPrincipal);

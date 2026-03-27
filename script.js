@@ -21,38 +21,9 @@ let $header = document.querySelector(".header")
 // declarando a vareavel //
 
 function alterarTema() {
-    if (document.body.style.backgroundColor === "black") {
-        document.body.style.backgroundColor = "white";
-        document.querySelector(".paragrafo").style.color = "black"
-        document.querySelector(".paragrafo2").style.color = "black"
-        document.querySelector(".paragrafo3").style.color = "black"
-        document.querySelector(".title").style.color = "black"
-        document.querySelector(".titulo-1").style.color = "black"
-        document.querySelector(".titulo-2").style.color = "black"
-        document.querySelector(".titulo-3").style.color = "black"
-        document.querySelector(".titulo-4").style.color = "black"
-
-        $header.style.backgroundColor = "white"
-
-        // outra forma de deixar o código mais curto // declarando a vareavel 
-
-    }
-
-    else {
-        document.body.style.backgroundColor = "black";
-        document.querySelector(".paragrafo").style.color = "white"
-        document.querySelector(".title").style.color = "white"
-        document.querySelector(".titulo-1").style.color = "white"
-        document.querySelector(".titulo-2").style.color = "white"
-        document.querySelector(".titulo-3").style.color = "white"
-        document.querySelector(".titulo-4").style.color = "white"
-        document.querySelector(".paragrafo").style.color = "white"
-        document.querySelector(".paragrafo2").style.color = "white"
-        document.querySelector(".paragrafo3").style.color = "white"
-
-        document.querySelector(".header").style.backgroundColor = "black"
-
-    }
+   
+   document.body.classList.toggle("tema-claro");
+   
 }
 
 
